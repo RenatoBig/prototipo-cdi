@@ -1,0 +1,35 @@
+.mensagem-erro {
+    color: red;
+}
+
+body{
+	font-family: arial;
+	border-top: 15px solid #336699;
+	border-bottom: 15px solid #336699;
+	margin: 0 0 0 0;
+}
+
+#frmLogin{
+	margin: 20px;
+    width: 40%;
+	float: none;
+	font-size:14px;
+}
+
+#frmLogin input[type="submit"]{
+	background-color: #003366;
+	border:0px;
+	color:#ffffff;
+	padding: 8px;
+}
+
+#login, #senha{
+	background-color: #ffffff;
+	border:1px solid #003366; 
+}
+
+.loader{
+	border:1px solid #939289;
+	text-align: center;
+	padding: 10px;
+}

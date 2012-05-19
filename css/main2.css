@@ -1,0 +1,88 @@
+.mensagem-erro {
+    color: red;
+}
+
+body{
+	font-family: Arial;
+	border-top: 15px solid #336699;
+	border-bottom: 15px solid #336699;
+	margin: 0 0 0 0;
+	font-size: 13px;
+}
+
+#menu{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+	background-color: #336699;
+	
+}
+
+#menu ul{
+	margin: 0;
+	padding: 5px 0 5px 0;
+	text-align:center;
+    float: left;
+    width: 100%;
+	color: #ffffff;
+    list-style:none;
+}
+
+ol{
+	list-style: none;
+	margin-left:10px;
+	padding:0px;
+	
+}
+
+li{	
+	list-style: none;
+	margin: 5px;
+	padding:0px;
+}
+
+ol[type="1"]>li{
+	padding:2px;
+	background-color:#336699;
+	color: #ffffff;
+	width: 50%;
+}
+
+ol[type="a"]>li
+{
+	background-color:#f0f0f0;
+	width: 50%
+}
+
+ol[type="a"]>li a
+{
+	color: #003366;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu ul li { display: inline; padding-left: 10px}
+
+#menu li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+h1{
+	color: #336699;
+	font-size: 30px;
+font-weight: bold;
+}
+
+h2{
+	margin-top:-10px;
+	padding: 0;
+	font-size: 13px;
+}
+
+

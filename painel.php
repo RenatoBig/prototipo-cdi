@@ -86,7 +86,7 @@ $usuario = mysql_fetch_object($query);
 				</ol>
 		</ol>
 		
-		<p>TESTE nos equipamentos 3: <input type="text" id="test2" class="input" /></p>
+		<p>Possível ferramenta de busca incondicional (Experimental): <input type="text" id="test2" class="input" /></p>
 
 		
 

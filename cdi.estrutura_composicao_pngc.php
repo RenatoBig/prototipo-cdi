@@ -47,7 +47,7 @@ $usuario = mysql_fetch_object($query);
 	
 	//$objGrid -> total("salary,workeddays");
 	
-	$objGrid -> searchby("id,nomeGrupoGasto");
+	$objGrid -> searchby("codigoPNGC,nomeGrupoGasto,nomeUnidade,nomeSubgrupo,nomeSubgrupo2,tipo");
 	
 	//$objGrid -> linkparam("sess=".$_REQUEST["sess"]."&username=".$_REQUEST["username"]);	 
 	

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: 25/05/2012 às 18h34min
+-- Tempo de Geração: 05/06/2012 às 13h08min
 -- Versão do Servidor: 5.5.16
 -- Versão do PHP: 5.3.8
 
@@ -2110,7 +2110,7 @@ CREATE TABLE IF NOT EXISTS `estrutura_composicao_pngc` (
   `dataMod` timestamp NULL DEFAULT NULL,
   `usuario` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=82 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=84 ;
 
 --
 -- Extraindo dados da tabela `estrutura_composicao_pngc`
@@ -2192,7 +2192,9 @@ INSERT INTO `estrutura_composicao_pngc` (`id`, `codigoPNGC`, `nomeGrupoGasto`, `
 (78, '4.4.2', 'Despesas Gerais', 'ADMIN-Secretaria', 'Combustível', 'Álcool', 'l', NULL, NULL),
 (79, '4.4.3', 'Despesas Gerais', 'ADMIN-Secretaria', 'Combustível', 'Biodiesel', 'l', NULL, NULL),
 (80, '6.1', '6', '11', 'Ambulatorial', ' Exames, consultas, etc...', 'und', NULL, NULL),
-(81, '6.2', '6', '11', 'Internação', '', '', NULL, NULL);
+(81, '6.2', '6', '11', 'Internação', '', '', NULL, NULL),
+(82, '3.1.3', 'Materiais de Consumo', 'Farmácia', 'Medicamentos', 'Imunobiológicos', 'und', NULL, NULL),
+(83, '4.4.4', '4', '9', 'Combustível', 'Motor FLEX (multi-combustível)', 'l', NULL, NULL);
 
 -- --------------------------------------------------------
 

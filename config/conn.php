@@ -1,8 +1,8 @@
 <?php
 // Informações para conexão
 $host = 'localhost';
-$usuario = 'cdi';
-$senha = 'BlackBird';
+$usuario = 'cdidesenv';
+$senha = 'cdidesenv';
 $banco = 'prototipo-cdi';
 // Realizando conexão e selecionando o banco de dados
 $conn = mysql_connect($host, $usuario, $senha) or die(mysql_error());

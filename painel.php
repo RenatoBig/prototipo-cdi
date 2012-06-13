@@ -14,8 +14,8 @@ if (!$objLogin->verificar('index.html'))
 $query = mysql_query("SELECT * FROM usuarios WHERE id = {$objLogin->getID()}");
 $usuario = mysql_fetch_object($query);
 ?>
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="pt">
 	<head>
 	<meta name="description" content="Gestão de Estrutura - CDI"  />
 	<meta name="keywords" content="Custos, Gestão, Estrutura Formal, Modelo de gestão" />

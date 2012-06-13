@@ -1,12 +1,32 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="pt">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Prototipo CDI - Login</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css" />		
+		<link rel="stylesheet" href="css/bootstrap.css">
+			<style>
+			body {
+			padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+			}
+			</style>
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		
+		
         <script type='text/javascript' src='js/jquery.js'></script>
         <script type='text/javascript' src='js/jquery.form.js'></script>
 
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link href="ico/favicon.ico" rel="shortcut icon">
+		<link href="ico/apple-touch-icon-144-precomposed.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+		<link href="ico/apple-touch-icon-114-precomposed.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+		<link href="ico/apple-touch-icon-72-precomposed.png" sizes="72x72" rel="apple-touch-icon-precomposed">
+		<link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+
 
         <script type="text/javascript">
         // Quando carregado a página
@@ -48,7 +68,7 @@
 
     </head>
     <body>
-        <form id="frmLogin" action="ajax/logar.php" method="post">
+        <form class="well" id="frmLogin" action="ajax/logar.php" method="post">
             <fieldset>
                 <legend><b>PROTOTIPO CDI - Login</b></legend>
 
@@ -65,7 +85,7 @@
                     <input type="password" id="senha" name="senha" />
                 </p>
 
-                <input type="submit" value="Entrar" />
+                <input class="btn btn-primary" type="submit" value="Entrar" />
             </fieldset>
         </form>
     </body>

@@ -1,0 +1,3 @@
+SELECT integrador_dados_0.id, integrador_dados_0.codigoX, integrador_dados_0.cnes, integrador_dados_0.idCodigoX, integrador_dados_0.nomeFantasia, integrador_dados_0.distritoSanitario, integrador_dados_0.codigoDistritoSanitario, integrador_dados_0.codigoPNGC, integrador_dados_0.grupoDeGasto, integrador_dados_0.unidadeFuncional, integrador_dados_0.subGrupo, integrador_dados_0.subGrupo2, integrador_dados_0.tipoUnidade, integrador_dados_0.especificacao, integrador_dados_0.observacao
+FROM `prototipo-cdi`.integrador_dados integrador_dados_0
+WHERE integrador_dados_0.atividade = 1
